@@ -1,0 +1,32 @@
+PixelFenda v0.2.1 — Hotfix GPU + NVENC
+
+CORREÇÕES
+1. Corrige KeyError de uniform GLSL otimizado (u_treble) ao combinar efeito + filtro na GPU.
+2. Uniforms reativos agora são tolerantes à otimização do driver OpenGL.
+3. Corrige o callback de erro do Tkinter e preserva a mensagem/traceback real.
+4. Cria pixelfenda_error.log automaticamente em falhas de preview/render.
+5. Corrige falso negativo de NVENC: o probe antigo 64x64 foi substituído por um encode 1280x720.
+6. Probe NVENC agora é cacheado para não repetir o teste desnecessariamente.
+
+ATUALIZAÇÃO SOBRE v0.2.0
+- Feche o PixelFenda.
+- Copie os arquivos/pastas deste hotfix sobre a pasta PixelFenda_v0_2_0.
+- Permita substituir os arquivos existentes.
+- NÃO apague o seu .venv.
+- Abra PowerShell na pasta, ative o .venv e execute:
+
+  python .\teste_hotfix_v021.py
+
+Depois rode normalmente:
+
+  python .\pixelfenda.py
+
+O teste mais importante é:
+- Aplicar EFEITO: ligado
+- Efeito: VRAM Corrupted Memory
+- Aplicar FILTRO: ligado
+- Filtro: Vintage 70
+- Processamento: Automático ou Forçar GPU
+- Encoder: Automático
+
+Na RTX 4060 o autoteste deve apontar o renderer NVIDIA/OpenGL. O diagnóstico detalhado também permanece disponível em diagnostico_gpu.py.

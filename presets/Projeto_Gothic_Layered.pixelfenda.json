@@ -1,0 +1,26 @@
+{
+  "format_version": 3,
+  "app_version": "0.3.0",
+  "name": "Gothic Layered",
+  "input_path": "",
+  "output_path": "",
+  "resolution": "original",
+  "width": 1080,
+  "height": 1920,
+  "resize_mode": "crop",
+  "encoder_mode": "auto",
+  "gpu_mode": "auto",
+  "seed": 1337,
+  "reactive_mode": "both",
+  "scene_mode": "mutate",
+  "scene_threshold": 0.22,
+  "audio_mode": "original",
+  "music_path": null,
+  "stem_vocals_path": null,
+  "stem_instrumental_path": null,
+  "layers": [
+    {"kind":"effect","key":"gothic_halo","intensity":0.68,"opacity":0.72,"blend":"screen","mod_source":"bass","mod_amount":0.48,"enabled":true,"scene_reset":false,"lut_path":null,"name":"Halo Carmim","uid":"preset001"},
+    {"kind":"effect","key":"signal_grid","intensity":0.42,"opacity":0.38,"blend":"difference","mod_source":"beat","mod_amount":0.72,"enabled":true,"scene_reset":true,"lut_path":null,"name":"Grade de Sinal","uid":"preset002"},
+    {"kind":"filter","key":"gothic_iron","intensity":0.78,"opacity":0.90,"blend":"normal","mod_source":"none","mod_amount":0.0,"enabled":true,"scene_reset":false,"lut_path":null,"name":"Gothic Iron","uid":"preset003"}
+  ]
+}
