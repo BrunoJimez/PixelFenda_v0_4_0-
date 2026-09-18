@@ -1,0 +1,263 @@
+{
+  "product": "PixelFenda",
+  "version": "0.4.0",
+  "status": "Development Validated / RTX 4060 validation pending",
+  "generated_utc": "2026-08-29T06:17:01.139619+00:00",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 484,
+      "sha256": "0f2ebc734794719baf5e6e9ea3617f8fc5cba1d6c3ba5eea4a6da49f2c4fe5bb"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 4289,
+      "sha256": "4813937f5eddcaeb1de42fa6886c0cb31035d1771847d10868bd7727544da638"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1075,
+      "sha256": "8ed589612023e8885f8b62a19e2032ffce53b0d4ac96d8ffeb5fcc59dba668c5"
+    },
+    {
+      "path": "LICENSE.txt",
+      "bytes": 1075,
+      "sha256": "8ed589612023e8885f8b62a19e2032ffce53b0d4ac96d8ffeb5fcc59dba668c5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5806,
+      "sha256": "8c480994247e8a569726ddf965dcd5515751527450e66c06af00de666a138c01"
+    },
+    {
+      "path": "TESTE_VISUAL_v0.4.0_TEMPORAL.jpg",
+      "bytes": 106512,
+      "sha256": "672bf035f6bb3f9fb6848e012b664e55b651f46b6b2ba056447eaf697616f919"
+    },
+    {
+      "path": "VALIDACAO_v0.3.0.md",
+      "bytes": 2739,
+      "sha256": "6b2cfdf88de60bd10e8a0a4f4fbd53faeccd0250c8c2f2bc320b8422af5c9fc2"
+    },
+    {
+      "path": "VALIDACAO_v0.4.0.md",
+      "bytes": 4204,
+      "sha256": "2e569766fb2c3b6911d4e9e60e1943a077a5a29a239bded7ed21f5493edc5cd2"
+    },
+    {
+      "path": "demucs_status.py",
+      "bytes": 554,
+      "sha256": "a9533004b271f3e6cf55450416d50382fd05cfbabe1a002eb510fd12afd31ca2"
+    },
+    {
+      "path": "diagnostico_gpu.py",
+      "bytes": 7764,
+      "sha256": "49229e6f0eb65c660e25325fdf065949470563951b9076ddbd748e40f8906cab"
+    },
+    {
+      "path": "docs/history/ANALISE_ANEXOS_v0.2.0.md",
+      "bytes": 2780,
+      "sha256": "143ebcc6ca1896db3aca20b28e9c63c7898b78adc04a62a19041683bf15657bb"
+    },
+    {
+      "path": "docs/history/ANALISE_REFERENCIA.md",
+      "bytes": 2973,
+      "sha256": "101527857ac4a7f384dfc20ebb8bd70ed92d032365792171e54314fa3b706f75"
+    },
+    {
+      "path": "docs/history/HOTFIX_v0.2.1.txt",
+      "bytes": 1228,
+      "sha256": "a938813a37d127b40f71cfec5d58e782c2df39d448b09bf5fe32f9dd080ebd7c"
+    },
+    {
+      "path": "docs/history/PESQUISA_EFEITOS_FILTROS_v0.2.0.md",
+      "bytes": 4532,
+      "sha256": "799a5a5b3889d71c88099680a2e20644a532116d820e1b745bdfa24f08535b50"
+    },
+    {
+      "path": "docs/history/VALIDACAO_RTX4060_v0.2.1.md",
+      "bytes": 1391,
+      "sha256": "70523722de1f58bfe34c33161e74bdfc65be403563ed983edcbc75800c69e2f9"
+    },
+    {
+      "path": "docs/history/VALIDACAO_v0.2.0.md",
+      "bytes": 1814,
+      "sha256": "938e5542b932c13ad65a4b5c9d53ab5dba4931580f17b30611c7741ff4af4c13"
+    },
+    {
+      "path": "docs/history/teste_hotfix_v021.py",
+      "bytes": 2325,
+      "sha256": "e333f45d6ee2793f3ae4c4d3913b92662f4993c571845519f95ac4e0051056b1"
+    },
+    {
+      "path": "docs/research/PESQUISA_v0.3.0.md",
+      "bytes": 4345,
+      "sha256": "02b3eec63f5d77f30a89c562c80e1531a67b66b4391ddbaaa4a2d61bc85763bb"
+    },
+    {
+      "path": "docs/research/PESQUISA_v0.4.0.md",
+      "bytes": 3649,
+      "sha256": "3f127c2d78fabf94dfd568b2a3b9bb6339097ce6ee266d8733780aa7921dc549"
+    },
+    {
+      "path": "install_demucs_optional.bat",
+      "bytes": 730,
+      "sha256": "1fa35badc22836f3a9b368629f84bc9349badadf642a256ba4d4c2378394410b"
+    },
+    {
+      "path": "install_windows.bat",
+      "bytes": 751,
+      "sha256": "357651056204453b4623170f2fb4f1eb4b6230c656b9d2f65d5c6c7dda9652d6"
+    },
+    {
+      "path": "luts/PixelFenda_ChromeIce.cube",
+      "bytes": 132741,
+      "sha256": "5871c49856410b08883bb9fe951ee829bc45c44dcc3acc6b9f96ce7736ba1860"
+    },
+    {
+      "path": "luts/PixelFenda_CobaltNoir.cube",
+      "bytes": 132742,
+      "sha256": "b7b612ba43b9d606b10e16099dd93e8330a65b28a013fa4ca42196e62b239e03"
+    },
+    {
+      "path": "pixelfenda/__init__.py",
+      "bytes": 22,
+      "sha256": "56b5e91c3bb77ab933c25fd65eba883419bdc5691cc94cb9dc840e8f4e3674eb"
+    },
+    {
+      "path": "pixelfenda/_lutdata_amber.py",
+      "bytes": 23166,
+      "sha256": "2f61c25d4ca354442ce08461fe417be1f41aa8ad7266a4292c5fab6303628aee"
+    },
+    {
+      "path": "pixelfenda/_lutdata_chrome.py",
+      "bytes": 39117,
+      "sha256": "e1d12d6710a2da3dbd360a76c5fd400eacb3c6cec5e6dc8db87c8f6e8e011e71"
+    },
+    {
+      "path": "pixelfenda/_lutdata_cobalt.py",
+      "bytes": 22025,
+      "sha256": "51440fe2fee045fd167c33d1281afd7fcc5886884ca451e1e166d82f142a903f"
+    },
+    {
+      "path": "pixelfenda/app.py",
+      "bytes": 59408,
+      "sha256": "2894abbc6b3d216f66d7f28d5ddce2c774adac9081a5089fbbfd89b1c36e838e"
+    },
+    {
+      "path": "pixelfenda/builtin_luts.py",
+      "bytes": 872,
+      "sha256": "a85908c5def6b7e4039f18b7924b8efabbbc8ae0cd3627218a88e88962b5e129"
+    },
+    {
+      "path": "pixelfenda/effects.py",
+      "bytes": 22143,
+      "sha256": "4cd612c0d5bc55177825d4b690ec99ee7da8adb24462cda8baa3198b6bd31778"
+    },
+    {
+      "path": "pixelfenda/engine.py",
+      "bytes": 20464,
+      "sha256": "8559d55719654beb0afbf8c2891f25d1fff44756dff15318ace2d7536dde8856"
+    },
+    {
+      "path": "pixelfenda/ffmpeg_utils.py",
+      "bytes": 2859,
+      "sha256": "4ab3faa7d3c085c3a014dd0dd4f06b9759ebd2f1d27bc4dd261e63ef4250513f"
+    },
+    {
+      "path": "pixelfenda/filters.py",
+      "bytes": 8721,
+      "sha256": "99d03f5688a7ff622aff79f8ac47d337e6068e45b99e81df9e53a58449fd7d1e"
+    },
+    {
+      "path": "pixelfenda/gpu.py",
+      "bytes": 13317,
+      "sha256": "6530a58f50467dfa8b0ed515ae1209d4590d6ee5a23dec4009fc739aa19c09b5"
+    },
+    {
+      "path": "pixelfenda/layering.py",
+      "bytes": 11200,
+      "sha256": "f017b8001d846eaab5eec90cc024c8a4ae7eb22f7e805fb46a2bc24caab6b889"
+    },
+    {
+      "path": "pixelfenda/lut.py",
+      "bytes": 4939,
+      "sha256": "994a5a570b28a069819469a4ffcb5e39642fd88d1ffb06edec18357df5751ef2"
+    },
+    {
+      "path": "pixelfenda/masks.py",
+      "bytes": 6682,
+      "sha256": "75b7b7d14790f5bb1ad85ef7dd5676240a80ed394434e6e9c7c72687e49eac31"
+    },
+    {
+      "path": "pixelfenda/model.py",
+      "bytes": 5407,
+      "sha256": "2a3642a0a737782e00d5c0fd1b2cf2e47ae9444d18cfc6ceae61b2d0392aea30"
+    },
+    {
+      "path": "pixelfenda/presets.py",
+      "bytes": 6477,
+      "sha256": "71f8398699d9000192e2c1fcf947497129a635362f36adb6350c7bbfea4879be"
+    },
+    {
+      "path": "pixelfenda/reactive.py",
+      "bytes": 5286,
+      "sha256": "e9de5f93dddc23b4c624b71fb4a52246533db825e977ae852a516cfa25fc0f6b"
+    },
+    {
+      "path": "pixelfenda/rhythm.py",
+      "bytes": 3168,
+      "sha256": "0271e90d6f35b53b86152ec198f07d4fc262f80828f17bda143a76659142961c"
+    },
+    {
+      "path": "pixelfenda/scene.py",
+      "bytes": 3503,
+      "sha256": "75605260abe2523c3b5dbe31a44c3f7bc7513d24d0434bf2175015ab99be6b0a"
+    },
+    {
+      "path": "pixelfenda/stems.py",
+      "bytes": 2921,
+      "sha256": "faebe96041cf8e1def00cb32ade1537c4b5c6689ed1302afef74d9ed311dcdeb"
+    },
+    {
+      "path": "pixelfenda/temporal.py",
+      "bytes": 5543,
+      "sha256": "b0b795e75b6f9a906e7d9518e56f10dd0ba5a1cb37fd9be8655911ed0a415fd5"
+    },
+    {
+      "path": "pixelfenda.py",
+      "bytes": 4773,
+      "sha256": "cef10715f45f765761edfe566106b5d46647bedfb7320d0acb8ba541f451e4ce"
+    },
+    {
+      "path": "presets/Projeto_Gothic_Layered.pixelfenda.json",
+      "bytes": 1148,
+      "sha256": "8444311cda665d972cfd593645b76cdac974e8597417bc04c7fa36e1792790a2"
+    },
+    {
+      "path": "presets/Projeto_Temporal_Gothic_v040.pixelfenda.json",
+      "bytes": 2894,
+      "sha256": "420d2ce75f9ac6f6fb7b33700729cbb8d54cb365abf8e9686160c68417e1055c"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 113,
+      "sha256": "60466e9fc46607e5b23d0187f43d692557e35e563bd6d5389111d258aef6f539"
+    },
+    {
+      "path": "run_windows.bat",
+      "bytes": 226,
+      "sha256": "ddd89d41769dc8cd36979b9ee2bf1bda2c739b85c7fc3c53095132950888e39b"
+    },
+    {
+      "path": "teste_v030.py",
+      "bytes": 5218,
+      "sha256": "6f0cbd23a6d9e2be4dcf6369a69729e454a40d40813349bed0c1e5133cbf5a25"
+    },
+    {
+      "path": "teste_v040.py",
+      "bytes": 7495,
+      "sha256": "0808855ca8cbc61e51bf5af3c357cc95a3589a77c74c9293123f87c60e4046e3"
+    }
+  ]
+}
